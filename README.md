@@ -1,5 +1,16 @@
 # Unity-PassthroughCameraAPISamples
 
+# How to switch between models
+
+- All models are stored in Assets/PassthroughCameraApiSamples/MultiObjectDetection/SentisInference/Model.
+- For each model stored there, there will be a normal .onnx file as well as an _sentis.sentis file.
+- When the scene is open, in the sentis inference object, under the sentis inference run manager script, there will be 2 slots to input models of type Model Asset.
+- The first slot is for the .sentis model and the slot below that is for the .onnx model
+- The respective type of models need to be dragged and dropped from the model folder into the respective slots.
+- Hit ctrl + s
+- And then build and run to the quest.
+
+
 # Table of Contents
 
 1. [Project Overview](#project-overview)
